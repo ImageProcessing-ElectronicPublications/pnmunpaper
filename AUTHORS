@@ -1,0 +1,8 @@
+Jens Gulden <unpaper@jensgulden.de> 2005-2009
+Original author and maintainer
+
+Diego Elio Pettenò <flameeyes@flameeyes.eu> 2011-
+Build system cleanup and code improvements
+
+Michael McMaster <michael@codesrc.com> 2013
+Improved image quality when using deskew and stretch
