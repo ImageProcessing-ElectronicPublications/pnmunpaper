@@ -2,10 +2,12 @@ bin_PROGRAMS = unpaper
 MANPAGE_XSL ?= http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl
 
 unpaper_SOURCES = src/unpaper.c include/unpaper.h
+unpaper_CFLAGS = -I./include
 unpaper_LDADD = libunpaper.la
 
 pkglib_LTLIBRARIES = libunpaper.la
 libunpaper_la_SOURCES = src/error.c src/file.c src/imageprocess.c src/parse.c src/tools.c include/unpaper.h
+libunpaper_la_CFLAGS = -I./include
 libunpaper_la_LDFLAGS = -version-info 5:3:5 -no-undefined
 include_HEADERS = include/unpaper.h
 
