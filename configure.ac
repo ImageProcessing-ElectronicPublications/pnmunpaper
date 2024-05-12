@@ -1,6 +1,6 @@
 AC_PREREQ(2.68)
 
-AC_INIT([unpaper], [0.5.4], [https://github.com/Flameeyes/unpaper/issues], , [https://github.com/Flameeyes/unpaper])
+AC_INIT([pnmunpaper], [0.5.4], [https://github.com/ImageProcessing-ElectronicPublications/pnmunpaper/issues], , [https://github.com/ImageProcessing-ElectronicPublications/pnmunpaper])
 
 AM_INIT_AUTOMAKE([1.11 dist-xz no-dist-gzip foreign subdir-objects])
 AM_SILENT_RULES([yes])

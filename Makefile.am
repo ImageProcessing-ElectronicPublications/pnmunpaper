@@ -1,9 +1,9 @@
-bin_PROGRAMS = unpaper
+bin_PROGRAMS = pnmunpaper
 MANPAGE_XSL ?= http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl
 
-unpaper_SOURCES = src/unpaper.c include/unpaper.h
-unpaper_CFLAGS = -I./include
-unpaper_LDADD = libunpaper.la
+pnmunpaper_SOURCES = src/unpaper.c include/unpaper.h
+pnmunpaper_CFLAGS = -I./include
+pnmunpaper_LDADD = libunpaper.la
 
 pkglib_LTLIBRARIES = libunpaper.la
 libunpaper_la_SOURCES = src/error.c src/file.c src/imageprocess.c src/parse.c src/tools.c include/unpaper.h
@@ -12,9 +12,9 @@ libunpaper_la_LDFLAGS = -version-info 5:3:5 -no-undefined
 include_HEADERS = include/unpaper.h
 
 dist_doc_DATA = NEWS COPYING README AUTHORS TODO
-dist_man_MANS = unpaper.1
+dist_man_MANS = pnmunpaper.1
 
-dist_html_DATA = doc/unpaper.html doc/index.html
+dist_html_DATA = doc/pnmunpaper.html doc/index.html
 imgdir = $(htmldir)/img
 dist_img_DATA = doc/img/_after.png doc/img/_arrow.png			\
                 doc/img/_before.png doc/img/blackfilter-detail.png	\

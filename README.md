@@ -1,23 +1,23 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ImageProcessing-ElectronicPublications/unpaper)
-![GitHub Release Date](https://img.shields.io/github/release-date/ImageProcessing-ElectronicPublications/unpaper)
-![GitHub repo size](https://img.shields.io/github/repo-size/ImageProcessing-ElectronicPublications/unpaper)
-![GitHub all releases](https://img.shields.io/github/downloads/ImageProcessing-ElectronicPublications/unpaper/total)
-![GitHub](https://img.shields.io/github/license/ImageProcessing-ElectronicPublications/unpaper)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ImageProcessing-ElectronicPublications/pnmunpaper)
+![GitHub Release Date](https://img.shields.io/github/release-date/ImageProcessing-ElectronicPublications/pnmunpaper)
+![GitHub repo size](https://img.shields.io/github/repo-size/ImageProcessing-ElectronicPublications/pnmunpaper)
+![GitHub all releases](https://img.shields.io/github/downloads/ImageProcessing-ElectronicPublications/pnmunpaper/total)
+![GitHub](https://img.shields.io/github/license/ImageProcessing-ElectronicPublications/pnmunpaper)
 
-# unpaper
+# pnmunpaper
 
 Originally written by Jens Gulden — see [AUTHORS](AUTHORS) for more information.
 
 ## Overview
 
-`unpaper` is a post-processing tool for scanned sheets of paper, especially for
+`pnmunpaper` is a post-processing tool for scanned sheets of paper, especially for
 book pages that have been scanned from previously created photocopies.
 The main purpose is to make scanned book pages better readable on screen
 after conversion to PDF. Additionally, unpaper might be useful to enhance
 the quality of scanned pages before performing optical character recognition
 (OCR).
 
-`unpaper` tries to clean scanned images by removing dark edges that appeared
+`pnmunpaper` tries to clean scanned images by removing dark edges that appeared
 through scanning or copying on areas outside the actual page content (e.g.
 dark areas between the left-hand-side and the right-hand-side of a double-
 sided book-page scan).
